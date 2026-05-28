@@ -3,7 +3,7 @@ id: ataraxia
 name: Ataraxia
 type: shield
 url: ""
-requires: [seeed_xiao_ble]
+requires: [xiao_ble]
 exposes: [i2c_0]
 features:
   - keys
