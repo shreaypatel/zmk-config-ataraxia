@@ -3,15 +3,15 @@ if SHIELD_ATARAXIA_LEFT
 config ZMK_KEYBOARD_NAME
     default "Ataraxia"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
 endif
 
 if SHIELD_ATARAXIA_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Ataraxia"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
 
 endif
 
