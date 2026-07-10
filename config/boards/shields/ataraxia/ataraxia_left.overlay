@@ -1,1 +1,7 @@
 #include "ataraxia.dtsi"
+
+/ {
+    chosen {
+        zmk,matrix_transform = &left_transform;
+    };
+};
